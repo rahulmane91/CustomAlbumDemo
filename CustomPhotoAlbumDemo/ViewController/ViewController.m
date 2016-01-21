@@ -30,7 +30,7 @@
     [self presentModalViewController:imagePickerController animated:YES];
 }
 
-#pragma mark Image picker delegate methdos
+#pragma mark Image picker delegate methods
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingImage:(UIImage *)image editingInfo:(NSDictionary *)editingInfo
 {
